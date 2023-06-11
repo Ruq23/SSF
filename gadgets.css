@@ -344,9 +344,14 @@ h5:hover {
 /* RESPONSIVENESS */
 @media screen and (max-width: 480px) {
   body {
-    /* width: fit-content; */
-    /* width: min-content; */
-    width: 123%;
+    max-width: 100%;
+    overflow-x: hidden;
+
+  }
+
+  nav, footer {
+    max-width: 100%;
+
   }
 
   .nunu li {
@@ -366,33 +371,40 @@ h5:hover {
 }
 
 .ni-one h4 {
-    text-align: center;
+    /* text-align: center; */
+    margin-left: -90px;
     padding-top: 100px;
+    font-size: medium;
 
 
 }
 
 .ni-one p {
-    width: 60%;
-    margin-left: 30px;
+    width: 90%;
+    margin-left: -200px;
 
-    text-align: center;
+    text-align: start;
     padding-top: 20px;
     word-spacing: 2px;
     line-height: 30px;
     /* padding-left: 10px; */
     /* padding-right: 20px; */
     padding-bottom: 15px;
+    font-size: smaller;
+
 }
 
 .ni-one {
+  max-width: 100%;
     margin-top: 40px;
-    margin-left: -200px;
+    margin-left: 20px;
     margin-right: 0px;
     margin-bottom:120px;
     /* background-color: #9aa9a7; */
     padding-bottom: 40px;
 }
+
+
 
 .nununu h6{
     display: inline;
@@ -407,8 +419,8 @@ h5:hover {
 }
 
 .imgs img{
-    width: 130px;
-    height: 170px;
+    width: 90px;
+    height: 150px;
     margin-top: 25px;
 
 }
@@ -417,34 +429,36 @@ h5:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-right: 40px;
-    margin-left: 30px;
-    margin-bottom: 80px;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-bottom: 30px;
 }
 
 .imgs span {
     position: absolute;
     left: 1px;
-    top: 50px;
+    top: 70px;
 }
 
 .bb{
   display: none;
 }
-
+  .content {
+    max-width: 93%;
+  }
 
 .imgss {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-right: 40px;
-    margin-left: 30px;
-    margin-bottom: 80px;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-bottom: 30px;
 }
 
 .imgss img{
-    width: 130px;
-    height: 170px;
+    width: 90px;
+    height: 150px;
     margin-top: 25px;
 
 }
@@ -452,7 +466,7 @@ h5:hover {
 .imgss span {
     position: absolute;
     left: 1px;
-    top: 50px;
+    top: 70px;
 }
 
 hr {
@@ -487,7 +501,7 @@ h5:hover {
 
   
   #loadMore {
-    margin-left: 150px;
+    margin-left: 110px;
     margin-top: 40px;
     padding: 10px 40px;
     background-color: #9aa9a7;
@@ -509,6 +523,21 @@ h5:hover {
   footer {
     margin-top: 60px;
   }
+  .fix-three {
+    display: none;
+}
+
+    .fix-two {
+        display: none;
+    }
+
+    .fix-one {
+        display: none;
+    }
+
+    .pa {
+        display: none;
+    }
   
   .fix-three {
     display: none;
@@ -537,5 +566,9 @@ h5:hover {
 #hide {
   display: none;
  }
+
+ /* .hideimg {
+  display: none;
+} */
 
 }

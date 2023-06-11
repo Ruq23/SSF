@@ -324,7 +324,7 @@ footer h6 {
  /* RESPONSIVENESS */
  @media screen and (max-width: 480px) {
     body {
-      width: fit-content;
+      width: 100%;
       /* width: min-content; */
     }
 
@@ -351,21 +351,25 @@ footer h6 {
     }
     
     .hero-one button {
-       margin: 50px 200px;
+       margin: 50px 100px;
     }
     
     .hero-one h1 {
         padding-top: 100px;
+        font-size: medium;
      }
     
      .hero-one h2 {
         padding-top: 32px;
+        font-size: medium;
+
      }
     
      .hero-one p {
         padding-top: 60px;
         word-spacing: 5px;
         line-height: 35px;
+        font-size: small;
      }
 
     .hero-two {
@@ -412,21 +416,27 @@ footer h6 {
         background-repeat: no-repeat;
         background-size: 100% 33%;
         color: white;
+        
     
     }
     
     .hero-three h1 {
         margin-bottom: 30px;
+        font-size: medium;
     }
     
     .hero-three h6 {
         margin-bottom: 50px;
+        font-size: medium;
+
     }
     
     .hero-three p {
         padding-left: 30px;
         padding-right: 30px;
         line-height: 30px;
+        font-size: small;
+
     }
 
     .hero-four {
@@ -474,14 +484,14 @@ footer h6 {
     }
     
     .five-two {
-        display: flex;
-        flex-direction: column;
+        display: none;
+        /* flex-direction: column;
         /* justify-content: space-around; */
-        margin-bottom: -940px;
+        /* margin-bottom: -940px;
         align-items: flex-end;
         margin-right: 30px;
         position: relative;
-        top: -1302px;
+        top: -1302px;  */
     }
     
    .subb {
@@ -524,10 +534,10 @@ footer h6 {
         transform: skewX(10deg);
      }
      .fivefive {
-        transform: skewX(10deg);
+        display: none;
      }
 
-     .sixsox {
+     .sixsix {
         transform: skewX(10deg);
      }
     
@@ -559,6 +569,14 @@ footer h6 {
     /* FOOTER */
 
     .fix-three {
+        display: none;
+    }
+
+    .fix-two {
+        display: none;
+    }
+
+    .fix-one {
         display: none;
     }
 
